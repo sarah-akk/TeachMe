@@ -1,0 +1,13 @@
+/* custom.css */
+
+@layer utilities {
+  .scrollbar-container {
+    overflow-y: auto; /* Show scrollbar when content overflows vertically */
+    /* Add any other necessary styles */
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display:contents; /* Hide default scrollbar for WebKit browsers */
+  }
+  
+}
